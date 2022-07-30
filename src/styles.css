@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.dataTable{
+    max-width: 415px;
+}
+.ngx-datatable.material .datatable-header .datatable-header-cell {
+    font-size: 14px !important;
+    color: #666666 !important;
+    background: #f7f7f7 !important;
+}
+.ngx-datatable.material .datatable-header .datatable-header-cell.sort-active{
+    font-weight: 600 !important;
+}
+.ngx-datatable.scroll-vertical .datatable-body {
+    height: 45vh !important;
+    overflow-x: hidden;
+}
+.ngx-datatable.material .datatable-header {
+    border-bottom: none !important;
+}
+.ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell{
+    padding: 14px 14px 13px 18px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.datatable-icon-sort-unset::before,.datatable-icon-up::before,.datatable-icon-down::before{
+    color:#0063E6;
+    font-size: 17px;
+    opacity: 1 !important;
+}
+.datatable-row-even {
+    background: #fff;
+}
+.datatable-row-odd {
+    background: #f7f7f7;
+}
+.ngx-datatable.material:not(.cell-selection) .datatable-body-row:hover .datatable-row-group{
+    background: #f0f6ff !important;
+}
+.datatable-body-cell-label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ngx-datatable .datatable-footer{
+    display: none !important;
+}
